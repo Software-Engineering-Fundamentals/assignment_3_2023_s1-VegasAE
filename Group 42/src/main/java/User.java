@@ -10,15 +10,16 @@ public class User {
     protected int phoneNum;
     protected String password;
     protected String emergencyContact;
-    private String payment;
+    private String payment; // set to private for the current moment
 
 
+    //TODO: Implement these functions
     // get details of the user
     public void getDetails(){
         
     }
 
-    // set the details of the user TODO: determine how these details are to be collected
+    // set the details of the user
     public void setDetails(){
 
     }
@@ -29,7 +30,7 @@ public class User {
     }
 
     // create IT support ticket
-    public void createSupportTicket(){
+    public void createItEnquiry(){
 
     }
 
