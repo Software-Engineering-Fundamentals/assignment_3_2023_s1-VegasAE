@@ -1,8 +1,10 @@
+import java.util.ArrayList;
+
 public class Trainee extends User{
     // private attribute fields
     private String registrationId;
     private String username;
-    private Course[] courses;
+    private ArrayList<Course> courses;
 
     // TODO: Implement class methods
     // class methods

@@ -1,7 +1,9 @@
+import java.util.ArrayList;
+
 public class FinanceManager extends User {
 
     // private class attributes
-    private String[] reports = new String[]{};
+    private ArrayList<String> reports;
 
     //TODO: Implement these functions
 

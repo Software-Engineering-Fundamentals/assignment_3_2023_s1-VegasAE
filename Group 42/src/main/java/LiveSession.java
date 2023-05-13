@@ -1,4 +1,5 @@
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 
 public class LiveSession {
 
@@ -7,7 +8,7 @@ public class LiveSession {
     private LocalDateTime endTime;
     private int maxUsers;
     private Trainer trainer;
-    private Trainee[] attending;
+    private ArrayList<Trainee> attending;
 
     // class methods
     // TODO: Implement class methods and decide if more need to be created
@@ -24,7 +25,7 @@ public class LiveSession {
 
     // send message to another attendee
     public void sendMessage(){
-        
+
     }
     
 }
