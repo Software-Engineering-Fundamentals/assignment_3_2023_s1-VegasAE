@@ -4,7 +4,7 @@ public class Course {
     private int courseId;
     private String title;
     private String description;
-    private int duration; // TODO: might need to find different type to store this under
+    private int durationInWeeks; // TODO: might need to find different type to store this under
     private boolean isOnline;
 
     // class methods
@@ -16,8 +16,11 @@ public class Course {
     }
 
     // set the details of a course
-    public void setCourseDetails(){
-
+    public void setCourseDetails(int courseId, String title, String description, int duration){
+        this.courseId = courseId;
+        this.title = title;
+        this.description = description;
+        this.durationInWeeks = duration;
     }
     
 }

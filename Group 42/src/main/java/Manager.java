@@ -12,7 +12,9 @@ public class Manager extends User{
     }
 
     // create new course
-    public void createCourse(){
-        
+    public Course createCourse(){
+        Course newCourse = new Course();
+        newCourse.setCourseDetails(0, "Economics", "Markets and such.", 4);
+        return newCourse;
     }
 }
