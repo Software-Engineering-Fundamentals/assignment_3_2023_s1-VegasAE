@@ -5,7 +5,6 @@
 
 class MainSystem {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
 
         /// MANDATORY SCENARIO 1: Trainee lodges a registration fee refund request which is addressed by the finance manager
 
@@ -30,6 +29,11 @@ class MainSystem {
                 System.out.println(trainee.username + " refund request has been rejected.");
             }
         }
+
+        // SCENARIO 2: Lodge a feedback/complaint which is successfully addressed by the Manager
+
+        User user = new User();
+
         
     }
 }

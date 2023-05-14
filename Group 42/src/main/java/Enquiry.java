@@ -1,26 +1,30 @@
 public class Enquiry {
 
-    // private class methods
+    // private class attributes
     protected String enquiryId;
-    protected String userId;
+    protected User user;
     protected String enquiry;
-    protected boolean resolved;
+    protected boolean isResolved;
+
+    // Constructor
+    public Enquiry(String enquiryID, User user, String enquiry){
+        isResolved = false;
+    }
 
     // class methods
-    // TODO: Implement class methods
 
     // view what the enquiry is about
-    public void viewEnquiry(){
-
+    public void printEnquiry(){
+        System.out.println(enquiry);
     }
 
-    // track the progress of a enquiry
+    // track the progress of a enquiry (return resolved status)
     public boolean trackEnquiry(){
-        return resolved;
+        return isResolved;
     }
     
-    // resolve / close an enquiry
+    // resolve close an enquiry
     public void resolveEnquiry(){
-        this.resolved = true;
+        this.isResolved = true;
     }
 }
