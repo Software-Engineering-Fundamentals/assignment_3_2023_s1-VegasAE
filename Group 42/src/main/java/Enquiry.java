@@ -5,6 +5,7 @@ public class Enquiry {
     protected User user;
     protected String enquiry;
     protected boolean isResolved;
+    protected String response;
 
     // Constructor
     public Enquiry(User user, String enquiry){
@@ -26,7 +27,8 @@ public class Enquiry {
     }
     
     // resolve close an enquiry
-    public void resolveEnquiry(){
+    public void resolveEnquiry(String response) {
+        this.response = response;
         this.isResolved = true;
     }
 }
