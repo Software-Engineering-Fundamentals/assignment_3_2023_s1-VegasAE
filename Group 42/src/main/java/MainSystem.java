@@ -5,7 +5,6 @@
 
 class MainSystem {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
 
         /// MANDATORY SCENARIO 1: Trainee lodges a registration fee refund request which is addressed by the finance manager
 

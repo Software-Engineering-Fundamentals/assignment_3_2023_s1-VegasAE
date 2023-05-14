@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Trainee extends User{
     // private attribute fields
     private String registrationId;
-    private ArrayList<Course> courses;
+    private ArrayList<Course> courses = new ArrayList<>();
 
     // public attributes;
     public String username;
@@ -13,7 +13,8 @@ public class Trainee extends User{
 
     // Constructor
     public Trainee(String registrationId, String username) {
-        this.registrationId = null;
+        this.courses.add(new Course());
+        this.registrationId = registrationId;
         this.username = username;
     }
 
