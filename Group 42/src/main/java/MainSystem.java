@@ -29,6 +29,11 @@ class MainSystem {
                 System.out.println(trainee.username + " refund request has been rejected.");
             }
         }
+
+        // SCENARIO 2: Lodge a feedback/complaint which is successfully addressed by the Manager
+
+        User user = new User();
+
         
     }
 }
