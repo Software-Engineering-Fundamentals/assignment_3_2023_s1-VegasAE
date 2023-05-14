@@ -15,13 +15,6 @@ public class FinanceManager extends User {
         if (trainee.getRegistrationId() != null) {
             eligible = true;
         }
-
-        // Update trainee database
-        if (eligible) {
-            System.out.println(trainee.username + " refund request has been accepted.");
-        } else {
-            System.out.println(trainee.username + " refund request has been rejected.");
-        }
         
         return eligible;
     }
