@@ -26,7 +26,7 @@ public class Manager extends User{
         System.out.println("Reviewing enquiry: " + enquiry.getEnquiry());
 
         // Get manager response
-        System.out.print("How would you like to respond to the above enquiry: ");
+        System.out.print("Manager's response to the above enquiry: ");
         String response = inputScanner.nextLine();
 
         // Marks enquiry as resolved and returns response to system
