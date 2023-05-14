@@ -11,6 +11,7 @@ public class Enquiry {
 
     // view what the enquiry is about
     public void viewEnquiry(){
+        System.out.println(this.enquiry);
 
     }
 
