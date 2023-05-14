@@ -1,9 +1,4 @@
-import java.util.ArrayList;
-
 public class FinanceManager extends User {
-
-    // private class attributes
-    private ArrayList<String> reports;
 
     // class methods
 
