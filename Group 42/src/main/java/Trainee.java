@@ -51,7 +51,7 @@ public class Trainee extends User{
         inputScanner.close();
 
         // Check response
-        if (response == "y") {
+        if (response.equals("y")) {
             return true;
         } else {
             return false;
