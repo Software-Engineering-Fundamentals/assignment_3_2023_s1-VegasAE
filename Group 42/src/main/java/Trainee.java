@@ -3,8 +3,10 @@ import java.util.ArrayList;
 public class Trainee extends User{
     // private attribute fields
     private String registrationId;
-    private String username;
     private ArrayList<Course> courses;
+
+    // public attributes;
+    public String username;
 
     // TODO: Implement class methods
     // class methods
@@ -34,7 +36,8 @@ public class Trainee extends User{
 
     }
 
-
-
-    
+    // Return registrationId
+    public String getRegistrationId() {
+        return registrationId;
+    }
 }
