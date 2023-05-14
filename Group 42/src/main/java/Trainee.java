@@ -18,11 +18,6 @@ public class Trainee extends User{
         this.username = username;
     }
 
-    // Provide feedback about something
-    public void provideFeedback(){
-    
-    }
-
     // Request a refund
     public boolean requestRefund(Scanner scanner){
         

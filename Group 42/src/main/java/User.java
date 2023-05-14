@@ -43,25 +43,4 @@ public class User {
 
         return enquiry;
     }
-
-    // create IT support ticket
-    public void createItEnquiry(){
-
-    }
-
-    // allow user to join a course
-    public void joinCourse(){
-
-    }
-
-    // allow user to register themselves with the training service
-    public void register(){
-
-    }
-
-    // allows the user to login
-    public void login(){
-
-    }
-
 }
