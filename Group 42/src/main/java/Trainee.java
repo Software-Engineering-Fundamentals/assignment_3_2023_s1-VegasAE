@@ -12,7 +12,8 @@ public class Trainee extends User{
     // class methods
 
     // Constructor
-    public Trainee(String registrationId, String username) {
+    public Trainee (String registrationId, String username) {
+        super();
         this.registrationId = null;
         this.username = username;
     }

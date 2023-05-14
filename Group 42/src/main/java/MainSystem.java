@@ -32,8 +32,10 @@ class MainSystem {
 
         // SCENARIO 2: Lodge a feedback/complaint which is successfully addressed by the Manager
 
-        User user = new User();
+        Enquiry enquiry = trainee.createEnquiry();
+        Manager manager = new Manager();
 
-        
+    
+
     }
 }

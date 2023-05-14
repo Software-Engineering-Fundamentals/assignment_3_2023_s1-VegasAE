@@ -7,14 +7,14 @@ public class Enquiry {
     protected boolean isResolved;
 
     // Constructor
-    public Enquiry(String enquiryID, User user, String enquiry){
+    public Enquiry(User user, String enquiry){
         isResolved = false;
     }
 
     // class methods
 
     // view what the enquiry is about
-    public void printEnquiry(){
+    public void pintEnquirry(){
         System.out.println(enquiry);
     }
 

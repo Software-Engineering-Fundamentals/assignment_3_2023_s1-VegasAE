@@ -8,11 +8,21 @@ public class Manager extends User{
     // class methods
     // TODO: Implement class methods
 
+    // constructor
+    public Manager(){
+        super();
+    }
+
+    public Manager(String managerUsername){
+        super();
+        this.managerUsername = managerUsername;
+    }
+
     // resolved enquiries from users
-    public void resolveEnquiries(Enquiry[] enquiries){
-        for(Enquiry enquiry: enquiries){
-            enquiry.resolveEnquiry();
-        }
+    public void resolveEnquiry(Enquiry enquiry){
+        System.out.println("Reviewing enquiry");
+        enquiry.resolveEnquiry();
+        System.out.println("Manager resoled enquiry");
     }
 
     // create new course
