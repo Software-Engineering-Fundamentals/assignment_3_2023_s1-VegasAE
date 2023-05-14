@@ -1,3 +1,5 @@
+import java.util.List;
+
 public class Manager extends User{
     
     // private class attributes
@@ -7,8 +9,10 @@ public class Manager extends User{
     // TODO: Implement class methods
 
     // resolved enquiries from users
-    public void resolveEnquiries(){
-
+    public void resolveEnquiries(Enquiry[] enquiries){
+        for(Enquiry enquiry: enquiries){
+            enquiry.resolveEnquiry();
+        }
     }
 
     // create new course
