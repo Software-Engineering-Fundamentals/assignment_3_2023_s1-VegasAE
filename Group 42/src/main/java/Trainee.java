@@ -22,21 +22,6 @@ public class Trainee extends User{
     
     }
 
-    // Attend a hosted session
-    public void attendSession(){
-
-    }
-
-    // Access the resources for a course
-    public void accessResources() {
-
-    }
-
-    // Take an exam for a course
-    public void takeExam(){
-
-    }
-
     // Request a refund
     public boolean requestRefund(){
         
