@@ -4,11 +4,9 @@ public class Course {
     private int courseId;
     private String title;
     private String description;
-    private int durationInWeeks; // TODO: might need to find different type to store this under
-    private boolean isOnline;
+    private int durationInWeeks;
 
     // class methods
-    // TODO: Implement class methods
 
     // get the details of a course
     public void printCourseDetails(){
