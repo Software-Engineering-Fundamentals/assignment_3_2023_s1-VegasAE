@@ -9,13 +9,15 @@ public class Enquiry {
     // Constructor
     public Enquiry(User user, String enquiry){
         isResolved = false;
+        this.user = user;
+        this.enquiry = enquiry;
     }
 
     // class methods
 
     // view what the enquiry is about
-    public void pintEnquirry(){
-        System.out.println(enquiry);
+    public String getEnquiry(){
+        return enquiry;
     }
 
     // track the progress of a enquiry (return resolved status)

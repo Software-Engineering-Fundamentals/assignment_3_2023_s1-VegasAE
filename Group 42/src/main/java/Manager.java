@@ -5,7 +5,7 @@ public class Manager extends User{
     // private class attributes
     private String managerUsername;
 
-    // class methods
+    // class methodsy
     // TODO: Implement class methods
 
     // constructor
@@ -22,7 +22,8 @@ public class Manager extends User{
     public void resolveEnquiry(Enquiry enquiry){
         System.out.println("Reviewing enquiry");
         enquiry.resolveEnquiry();
-        System.out.println("Manager resoled enquiry");
+        System.out.print("Manager has resolved the enquiry \"" + enquiry.getEnquiry() + "\"");
+
     }
 
     // create new course

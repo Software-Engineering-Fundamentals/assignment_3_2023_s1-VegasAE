@@ -24,17 +24,11 @@ public class Trainee extends User{
     }
 
     // Request a refund
-    public boolean requestRefund(){
+    public boolean requestRefund(Scanner scanner){
         
-        // Create input scanner
-        Scanner inputScanner = new Scanner(System.in);
-
         // Get refund answer
         System.out.print("Do you want a refund (y/n): ");
-        String response = inputScanner.nextLine();
-
-        // Close input
-        inputScanner.close();
+        String response = scanner.nextLine();
 
         // Check response
         if (response.equals("y")) {

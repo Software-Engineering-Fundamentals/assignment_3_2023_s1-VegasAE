@@ -1,5 +1,4 @@
 import java.util.Date;
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class User {
@@ -36,13 +35,10 @@ public class User {
     }
 
     // create an enquiry request
-    public Enquiry createEnquiry(){
+    public Enquiry createEnquiry(Scanner scanner){
 
-        Scanner inputScanner = new Scanner(System.in);
         System.out.print("Input your enquiry: ");
-        String feedback = inputScanner.nextLine();
-        inputScanner.close();
-
+        String feedback = scanner.nextLine();
         Enquiry enquiry = new Enquiry(this, feedback);
 
         return enquiry;
